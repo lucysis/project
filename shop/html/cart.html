@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车_香港莎莎官网 - 正品美妆海淘商城,化妆品护肤品海外购首选</title>
+	<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/cart.css">
+	<script type="text/javascript" src="../js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="../js/common.js"></script>
+	<script type="text/javascript" src="../js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="../js/cart.js"></script>
+</head>
+<body>
+	<div id="topbar">
+		<div class="topbar page">
+			<div id="login-bar" class="l">欢迎光临莎莎官网！ <span class="loginregister"><a href="login.html">登录</a><span class="center">或</span><a href="register.html">免费注册</a></span><span class="userlogin" style="display: none;"><a href="cart.html">username</a><a class="zhuxiao" href="javascript:;" style="margin-left:5px;">注销</a></span></div>
+			<div id="member-bar" class="r">
+				<ul>
+					<li><div><a href="#">
+						<i class="icon"></i>我的账戶<i class="icon arr"></i>
+					</a></div>
+						<dl id="count-dl" style="display: none;">
+							<dd><a href="#">我的订单</a></dd>
+							<dd><a href="#">我的积分</a></dd>
+							<dd><a href="#">我的优惠券</a></dd>
+							<dd><a href="#">我的收藏</a></dd>
+							<dd><a href="#">我的评价</a></dd>
+						</dl>
+					</li>
+					<li><div><a href="#"><i class="icon"></i>我的收藏</a></div></li>
+					<li><div><a href="#"><i class="icon"></i>我的站内信</a></div></li>
+					<li><div><a href="#">积分中心</a></div></li>
+					<li><div><a href="#">Global Site</a></div></li>
+					<li><div><a href="#">关注我们<i class="icon arr"></i></a></div>
+						<!-- width: 210px; -->
+						<dl id="focus" style="display: none; width: 86px;">
+							<dt style="width: 85px;">
+								<a href="#">
+									<img src="../img/jiarushoucang.png">加入收藏
+								</a>
+								<a href="#">
+									<img src="../img/xinlangweibo.png">新浪微博
+								</a>
+								<a href="#">
+									<img src="../img/shashaweixin.png">莎莎微信
+								</a>
+								<a href="#">
+									<img src="../img/youkuship.png">优酷视频
+								</a>
+							</dt>
+							<dd style="display: none;">
+								<img src="../img/weiboewm.jpg">
+							</dd>
+							<dd style="display: none;">
+								<img src="../img/weixinewm.jpg">
+							</dd>
+							<dd style="display: none;">
+								<img src="../img/youkuewm.jpg">
+							</dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="header">
+		<div class="page">
+			<div class="carticon r">
+				<img src="../img/xianggangzhisong.png">&nbsp; &nbsp;
+				<img src="../img/zhenghuochengnuo.png">&nbsp; &nbsp;
+				<img src="../img/mianfeiyunsong.png">
+			</div>
+			<div class="cartstep"></div>
+			<div class="logo"><a href="../index.html"><img src="../img/logo.gif"></a></div>
+		</div>
+	</div>
+	<div id="content">
+		<div class="page">
+			<div class="cartcontainer">
+				<div class="carttitle">您的购物车中的商品</div>
+				<form action="order.html" method="post">
+					<table id="cart-main" class="cart-main" width="100%">
+						<tbody>
+							<tr class="carttable-pla"><td></td></tr>
+							<tr><td><div class="carttips">香港直送商品订单满<label class="pink">¥249</label>包邮</div></td></tr>
+							<tr>
+								<td>
+									<table id="cartdetail">
+										<thead><tr>
+											<th>香港直送</th>
+											<th class="th2">商品名称</th>
+											<th>单价</th>
+											<th>数量</th>
+											<th>小计</th>
+											<th>&emsp;</th>
+										</tr></thead>
+										<tbody>
+											<tr>
+												<td class="td1">
+													<div class="cart-chexkbox" style="visibility: hidden;"><input type="checkbox" ></div>
+													<div class="cart-pic"><a href="#"><img src="../img/cartpic.jpg"></a></div>
+												</td>
+												<td class="td2">
+													<div><a href="#">凯伊秀 三效水养系列 三效水养保湿洁颜霜</a></div>
+													<div class="table-spec">100克 </div>
+													<ul>
+														<li><i>直降</i>直降活动</li>
+													</ul>
+												</td>
+												<td class="price">￥40.0</td>
+												<td class="td4">
+													<div class="pronum">
+														<a href="javascript:;">-</a>
+														<input type="text" value="1" readonly>
+														<a href="javascript:;">+</a>
+													</div>
+												</td>
+												<td class="pink td5">￥40.0</td>
+												<td class="delpro"><a href="javascript:;">删除</a></td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+							<tr class="carttable-pla"><td></td></tr>
+							<tr><td><p class="freetrans">清单价值满 <span class="pink">￥249.0</span> 即免费付运，尚欠 <span class="pink">￥209.0</span></p></td></tr>
+						</tbody>
+						<tbody id="cartpromotion">
+							<tr class="carttable-pla"><td></td></tr>
+							<tr>
+								<td>
+									<table class="promotion">
+										<thead>
+											<tr>
+												<th>已享受的优惠</th>
+												<th class="th2">优惠项目</th>
+												<th>&emsp;</th>
+												<th>&emsp;</th>
+												<th>&emsp;</th>
+												<th>&emsp;</th>
+											</tr>
+										</thead>
+										<!-- 商品 -->
+										<tbody></tbody>
+									</table>
+								</td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr><td>
+								<table class="promotion" id="order">
+									<tbody>
+										<tr class="carttable-pla"><td></td></tr>
+										<tr>
+											<td class="checkmoney">
+												<div class="l">
+													<a href="../index.html">继续购物</a>
+													<a href="javascript:;" id="clearcart">清空购物车</a>
+												</div>
+												<div class="r">
+													<span class="procount">共 <span class="prototalnum"> 1 </span> 件商品</span>
+													<span class="procount"> 商品应付金额 <b class="money"> ¥40.0</b></span>
+													<button type="submit">结账</button>
+												</div>
+											</td>
+										</tr>
+										<tr class="carttable-pla"><td></td></tr>
+									</tbody>
+								</table>
+							</td></tr>
+						</tfoot>
+					</table>
+				</form>
+			</div>
+
+
+
+		</div>
+	</div>
+	<footer>
+		<div id="help">
+			<div class="page">
+				<div class="btom-code">
+					<a href="#"><img src="../img/weixin.png"></a>
+				</div>
+				<div class="btom-code">
+					<a href="#"><img src="../img/weibo.png"></a>
+				</div>
+				<div class="btom-logo">
+					<h3></h3>
+				</div>
+				<div class="help-item">
+					<dl>
+						<dt>新手上路</dt>
+					</dl>
+					<ul>
+						<li><a href="#">购物流程</a></li>
+						<li><a href="#">优惠券说明</a></li>
+						<li><a href="#">常见问题</a></li>
+						<li><a href="#">联络我们</a></li>
+					</ul>
+				</div>
+				<div class="help-item">
+					<dl>
+						<dt>付款方式</dt>
+					</dl>
+					<ul>
+						<li><a href="#">在线支付</a></li>
+						<li><a href="#">积分支付</a></li>
+					</ul>
+				</div>
+				<div class="help-item">
+					<dl>
+						<dt>配送方式</dt>
+					</dl>
+					<ul>
+						<li><a href="#">配送说明</a></li>
+						<li><a href="#">追踪订单</a></li>
+					</ul>
+				</div>
+				<div class="help-item">
+					<dl>
+						<dt>售后服务</dt>
+					</dl>
+					<ul>
+						<li><a href="#">正品保证</a></li>
+						<li><a href="#">价格承诺</a></li>
+						<li><a href="#">30日退换保证</a></li>
+						<li><a href="#">退款程序</a></li>
+						<li><a href="#">更改订单</a></li>
+					</ul>
+				</div>
+				<div class="help-item">
+					<dl>
+						<dt>莎莎会员</dt>
+					</dl>
+					<ul>
+						<li><a href="#">积分悬赏</a></li>
+						<li><a href="#">会员计划</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="botm-link">
+				<a href="#">关于莎莎</a>
+				<a href="#">使用条款</a>
+				<a href="#">隐私政策</a>
+				<a href="#">招商合作</a>
+				<a href="#">帮助中心</a>
+				<a href="#">港澳店铺推广</a>
+				<a href="#">人才招聘</a>
+				<a href="#">联络我们</a>
+				<a href="#">网站地图</a>
+				<a href="#">其他送货地址</a>
+			</div>
+			<div id="over">
+				<div class="page">
+					<span class="l">© Copyright 2000-2016 Sa Sa dot Com Limited 版权所有。</span>
+					<span class="r">莎莎国际控股有限公司成员</span>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

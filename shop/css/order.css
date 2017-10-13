@@ -1,0 +1,88 @@
+input:hover,input:focus{border-color:#ec3e7d !important; box-shadow:0 0 5px #ec3e7d !important;}
+
+/*------------------------        header           ---------------------*/
+#header{background: #fff; position: relative; z-index: 300; height:95px;}
+#header .carticon{padding-top: 30px; width: 235px; overflow: hidden;}
+#header .carticon img{max-width: 235px; max-height: 62px;}
+#header .cartstep{width: 472px; height: 62px; float: left; margin: 20px 0 0 280px; background: url(../img/cartstep.png) no-repeat;   background-position: 0 -80px; overflow: hidden;}
+#header .logo{width: 300px; height: 45px; position: absolute; top: 21px; overflow: hidden;}
+
+/*------------------------        container           ---------------------*/
+#container{background:#f5f5f5; font-size:14px; overflow:hidden;}
+#main{width: 1000px; margin: 0 auto;}
+#main .title{padding: 0 0 5px 10px;}
+#main .title .title-text{font-size: 28px; padding: 35px 0; font-weight: bold;}
+#order-main{color:#666;}
+#order-main .order-section{background: #fff; margin-bottom: 10px;}
+#order-main .order-section .order-section-title{height: 36px; line-height: 36px; padding-left: 20px; padding-top: 16px;}
+#order-main .order-section .order-section-title .dottitle{background: #be9a5c; border-radius: 14px; width: 26px; height: 26px; line-height: 26px; text-align: center; color: #fff; margin-right: 5px; display: inline-block; font-style: normal;}
+#order-main .order-section .order-section-title .dottitle span{font-weight: normal; font-size: 14px;}
+#order-main .order-section .order-section-title b{font-size: 18px; padding-right: 20px; color: #676767;}
+#order-main .order-section-content{padding: 20px 30px; overflow: hidden;}
+#order-main .order-section-content .change-shipping{line-height: 20px; margin: 0 auto;}
+#order-main .line-bt{font-weight: normal; border-bottom: 1px solid #ddd; line-height: 30px; margin: 20px;}
+#order-main .line-bt .hand{cursor:pointer;}
+#order-main .order-section table{width: 92%; margin: 0 auto;}
+#order-main .order-section table td{padding: 8px 5px; }
+#order-main .order-section table .vt{vertical-align: top;}
+#order-main .order-section table .tr{text-align: right;}
+#order-main .order-section table .tl{text-align: left;}
+#order-main .x-input{outline: none; vertical-align: middle; border: 1px solid #ccc; height: 26px; line-height: 26px; padding: 4px; font-size: 100%; font-family: inherit;}
+#order-main .order-section table .x-select{padding: 7px 4px; color:#888; border: 1px solid #ccc; line-height: 25px; font-size: 100%; font-family: inherit; vertical-align: middle; float:left; margin-right:5px;}
+#order-main .order-section table option{display: block; padding: 0px 2px 1px; white-space: pre; min-height: 1.2em; font: inherit; font-weight: normal;}
+#order-main .order-section table .notinline{padding: 0 5px; vertical-align: middle;}
+#order-main .order-section table .btn-sure{background: #ec3e7d; padding: 8px 50px; display: inline-block; color: #fff; border: 0;}
+#order-main .order-section table .btn-cancle{background: #f2f2f2; padding: 8px 50px; display: inline-block; color: #666; border: 0; margin-left:10px;}
+#order-main .order-section .cart-main{border-collapse: collapse; border-spacing: 0; background: #fff; table-layout: fixed; color: #666666;}
+#order-main .order-section .cart-main thead{background-color: transparent; border-bottom: 1px solid #e6e6e6;}
+#order-main .order-section .cart-main thead tr{height:37px;}
+#order-main .order-section .cart-main thead th{padding-right: 6px; font-weight: 400; white-space: nowrap; color:#666;}
+#order-main .order-section .cart-main .cartpro td{padding-top: 15px; padding-bottom: 8px;  text-align:center;}
+#order-main .order-section .cart-main .prodetail{position:relative;  text-align:left;}
+#order-main .order-section .cart-main .prodetail a{vertical-align: middle; color:#666;}
+#order-main .order-section .cart-main .prodetail img{display: none; max-width: 100px; max-height: 100px; overflow: hidden; position:absolute; left:80px; top:20px; z-index:1000;}
+#order-main .order-section .cart-main .prodetail a:hover{text-decoration: underline; color:#000;}
+#order-main .order-section .cart-main .ppeomotion{text-align: left; padding-left: 20px;}
+#order-main .order-section .cart-main .ppeomotion li{width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 5px; height: 23px; text-align: left; line-height: 23px;}
+#order-main .order-section .cart-main .ppeomotion li i{background: #be9a5e; padding: 1px 5px; color: #fff; font-style: normal; display: inline-block; margin-right: 6px;}
+#order-main .order-section .cart-main td.pall{color: #ec3e7d; font-weight: bold;}
+
+#order-main .order-section2{background: #fff; border-top: 1px dotted #d6d6d6; overflow: hidden; margin-top: -10px; margin-bottom: 10px;}
+#order-main .order-section2 #order-coupon{text-align: left; padding: 20px 30px; line-height: 20px; overflow: hidden;}
+
+#order-main #order-coupon .coupon-text{font-size: 116.66667%; margin-bottom: 5px; font-weight: 400; line-height: 50px;}
+#order-main #order-coupon .coupon-text .btn-collapse{margin-right: 10px; display: inline-block; vertical-align: middle; color: #8B8B8B;}
+#order-main #order-coupon .coupon-text .btn-collapse .icon{font-size:24px; color:#888;}
+#order-main #order-coupon .content{padding-left: 30px; position:relative;}
+#order-main #order-coupon .content .item{margin-bottom: 8px;}
+#order-main #order-coupon .content .item button{border: 0 none; cursor:pointer; background-color: transparent; padding: 0; font-size: 100.0%; font-family: inherit; line-height: 35px; color: #fff; padding:0 30px; background-color: #ee407f; display: inline-block; vertical-align: middle;}
+#order-main #order-coupon .content .item .select-coupon{padding: 5px 0; color:#888; border: 1px solid #ccc; max-width: 280px; line-height: 25px; font-family: inherit; vertical-align: middle;}
+#order-main #orderprice{padding: 20px 30px; overflow: hidden;}
+#order-main #orderprice .inner{width: 160px;}
+#order-main #orderprice .inner li{text-align: right; line-height: 26px; font-size: 12px;}
+#order-main #orderprice .inner li .label{width: 65px; text-align: left; display: inline-block; float: left;}
+#order-main #orderprice .inner li em{font-style:normal;}
+#order-main #orderprice .inner li.total{border-top: 1px solid #ececec; font-size: 14px; padding-top: 10px; margin-top: 10px;}
+#order-main #orderprice .inner li .pricetotal{color: #ec3e7d; font-size: 18px;}
+
+#order-main .order-section .payway{overflow:hidden;}
+#order-main .order-section .payway-list{padding-bottom: 20px; border-top: 1px solid #ececec; clear: both; margin-top: -1px; overflow: hidden;}
+#order-main .order-section .payway-text{font-size: 14px; padding: 20px 0; font-weight: normal;}
+#order-main .order-section .payway li{float: left; line-height: 40px; margin-right: 45px;}
+#order-main .order-section .payway li input{vertical-align:middle;}
+#order-main .order-section .payway li img{width:125px; vertical-align:middle;}
+
+#order-main .chang-clause{width: 268px; font-size: 12px;}
+#order-main .chang-clause input[type='checkbox']{height: 13px; width: 20px; box-shadow: none;}
+#order-main .settle-list{width: 362px; margin-left: 30px; font-size:12px;}
+#order-main .settle-check{width: 198px;}
+#order-main .settle-check li{text-align: right; line-height: 26px; font-size: 12px;}
+#order-main .settle-check .label{width: 65px; text-align: left; display: inline-block; float: left; font-size: 16px; line-height: 26px;}
+#order-main .settle-check em{font-style: normal;}
+#order-main .settle-check .total-account{font-size: 18px; font-weight: bold; color: #ec3e7d;}
+#order-main .btnarea{text-align:right;}
+#order-main .btnarea a{background: #f2f2f2; padding: 8px 50px; display: inline-block; color: #666; border: 0; vertical-align: middle;}
+#order-main .btnarea button{margin-left: 20px; cursor:pointer; background: #ec3e7d; line-height:38px; padding: 0 30px; display: inline-block; color: #fff; border: 0; font-family: inherit;}
+
+
+

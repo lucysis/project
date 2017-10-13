@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车_香港莎莎官网 - 正品美妆海淘商城,化妆品护肤品海外购首选</title>
+	<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/order.css">
+	<script type="text/javascript" src="../js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="../js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="../js/common.js"></script>
+	<script type="text/javascript" src="../js/order.js"></script>
+</head>
+<body>
+	<div id="topbar">
+		<div class="topbar page">
+			<div id="login-bar" class="l">欢迎光临莎莎官网！ <span class="loginregister"><a href="login.html">登录</a><span class="center">或</span><a href="register.html">免费注册</a></span><span class="userlogin" style="display: none;"><a href="cart.html">username</a><a class="zhuxiao" href="javascript:;" style="margin-left:5px;">注销</a></span></div>
+			<div id="member-bar" class="r">
+				<ul>
+					<li><div><a href="#">
+						<i class="icon"></i>我的账戶<i class="icon arr"></i>
+					</a></div>
+						<dl id="count-dl" style="display: none;">
+							<dd><a href="#">我的订单</a></dd>
+							<dd><a href="#">我的积分</a></dd>
+							<dd><a href="#">我的优惠券</a></dd>
+							<dd><a href="#">我的收藏</a></dd>
+							<dd><a href="#">我的评价</a></dd>
+						</dl>
+					</li>
+					<li><div><a href="#"><i class="icon"></i>我的收藏</a></div></li>
+					<li><div><a href="#"><i class="icon"></i>我的站内信</a></div></li>
+					<li><div><a href="#">积分中心</a></div></li>
+					<li><div><a href="#">Global Site</a></div></li>
+					<li><div><a href="#">关注我们<i class="icon arr"></i></a></div>
+						<!-- width: 210px; -->
+						<dl id="focus" style="display: none; width: 86px;">
+							<dt style="width: 85px;">
+								<a href="#">
+									<img src="../img/jiarushoucang.png">加入收藏
+								</a>
+								<a href="#">
+									<img src="../img/xinlangweibo.png">新浪微博
+								</a>
+								<a href="#">
+									<img src="../img/shashaweixin.png">莎莎微信
+								</a>
+								<a href="#">
+									<img src="../img/youkuship.png">优酷视频
+								</a>
+							</dt>
+							<dd style="display: none;">
+								<img src="../img/weiboewm.jpg">
+							</dd>
+							<dd style="display: none;">
+								<img src="../img/weixinewm.jpg">
+							</dd>
+							<dd style="display: none;">
+								<img src="../img/youkuewm.jpg">
+							</dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="header">
+		<div class="page">
+			<div class="carticon r">
+				<img src="../img/xianggangzhisong.png">&nbsp; &nbsp;
+				<img src="../img/zhenghuochengnuo.png">&nbsp; &nbsp;
+				<img src="../img/mianfeiyunsong.png">
+			</div>
+			<div class="cartstep"></div>
+			<div class="logo"><a href="../index.html"><img src="../img/logo.gif"></a></div>
+		</div>
+	</div>
+	<div id="container">
+		<div class="page">
+			<div id="main">
+				<div class="title">
+					<div class="title-text">确认订单信息</div>
+				</div>
+				<form action="javascript:;">
+					<div id="order-main">
+						<!-- 收货地址 -->
+						<div id="ordershipping" class="order-section">
+							<div class="order-section-title">
+								<i class="dottitle"><span>1</span></i><b>收货地址</b>
+							</div>
+							<div class="order-section-content">
+								<ul id="change-shipping" class="change-shipping clb"></ul>
+								<div class="line-bt"><span class="hand">+ 填写新收货地址</span></div>
+								<div class="fill-shipping">
+									<table width="100%" border="0" cellspacing="0" cellpadding="5">
+										<tr>
+											<td class="vt tr" style="width: 59px;"><label>收件人</label></td>
+											<td class="vt" style="width: 284px;"><input type="text" class="x-input" name="name" size="35" maxlength="20"></td>
+											<td class="vt tr" style="width: 74px;"><label>电邮</label></td>
+											<td class="vt"><input class="x-input" type="text" size="25" name="email"></td>
+										</tr>
+										<tr class="addr">
+											<td class="vt tr"><label>收货地址</label></td>
+											<td colspan="3" class="vt">
+												<span>
+													<select id="province" class="x-select"><option value="_NULL_">请选择省份</option></select>
+													<select id="city" class="x-select" style="display: none;"><option value="_NULL_">请选择市</option></select>
+													<select id="district" class="x-select" style="display: none;"><option value="_NULL_">请选择区域</option></select>
+													<input type="text" class="x-input" size="6" maxlength="6" placeholder="邮政编码" style="color: rgb(153, 153, 153); ">
+												</span>
+											</td>
+										</tr>
+										<tr>
+											<td class="tr vt"><label>详细地址</label></td>
+											<td class="vt" colspan="3">
+												<input type="text" class="x-input" maxlength="66" size="80">
+											</td>
+										</tr>
+										<tr>
+											<td class="tr vt"><label>手机号码</label></td>
+											<td class="vt"><input type="text" class="x-input"></td>
+											<td class="tr vt"><label>固定电话</label></td>
+											<td class="vt">
+												<input type="text" class="x-input" size="4" maxlength="4" placeholder="区号" style="color: rgb(153, 153, 153);">
+												<input type="text" class="x-input" size="8" maxlength="8" placeholder="电话号码" style="color: rgb(153, 153, 153); margin-left: 10px;">
+												<input type="text" class="x-input" size="4" maxlength="4" placeholder="分机" style="color: rgb(153, 153, 153); margin-left: 10px;">
+												<span class="notinline">手机和固定电话至少写一个</span>
+											</td>
+										</tr>
+										<tr>
+											<td>&nbsp;</td>
+											<td colspan="3">
+												<a href="javascript:;" class="btn-sure">确定</a>
+												<a href="javascript:;" class="btn-cancle">取消</a>
+											</td>
+										</tr>
+										<tr>
+											<td>&nbsp;</td>
+											<td>&nbsp;</td>
+											<td>&nbsp;</td>
+											<td>&nbsp;</td>
+										</tr>
+									</table>
+								</div>
+							</div>
+						</div>
+						<!-- 商品清单 -->
+						<div class="order-section">
+							<div class="order-section-title">
+								<i class="dottitle"><span>2</span></i><b>商品清单</b>
+							</div>
+							<table id="cart-mian" class="cart-main">
+								<thead><tr>
+									<th width="20%" class="tl">商品名称</th>
+									<th width="15%" >单价</th>
+									<th width="15%" >数量</th>
+									<th width="10%" >小计</th>
+								</tr></thead>
+								<tbody>
+									<tr class="cartpro">
+										<td class="p-info tl">
+											<div class="prodetail">
+												<img src="../img/cartpic.jpg" >
+												<a href="#">凯伊秀 三效水养系列 三效水养保湿洁颜霜</a>
+												<div class="ppeomotion">
+													<ul>
+														<li><i class="tip">直降</i>直降活动</li>
+													</ul>
+												</div>
+											</div>
+										</td>
+										<td class="pprice">￥40.0</td>
+										<td class="pnum">1</td>
+										<td class="pall">￥40.0</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="order-section2">
+							<div class="order-coupon" id="order-coupon">
+								<div class="coupon-text">
+									<a href="javascript:;" class="btn-collapse"><i class="icon"></i></a>现金券代码
+								</div>
+								<div class="content">
+									<p class="item">
+										<input type="text" class="x-input" size="25">
+										<button type="button">确定</button>
+									</p>
+									<p class="item"><label>或使用优惠券</label></p>
+									<p class="item">
+										<select class="select-coupon">
+											<option value="">-- 选择优惠券 --</option>
+	                                        <option value="BAQ02NEW160629C5335047MX" >[BAQ02NEW160629] 新人￥10现金劵</option>
+	                                        <option value="BAQ02NEW1606AA85570D4B7" >[BAQ02NEW1606A] 新人满￥599立减￥20优惠券</option>
+	                                        <option value="BAQ02NEW1606B1371700O6W" >[BAQ02NEW1606B] 新人满￥999立减￥39优惠券</option>
+	                                        <option value="BAQ02NEW1606C43ED406VGQ" >[BAQ02NEW1606C] 新人满￥1099立减￥49优惠券</option>
+	                                        <option value="BAQ02NEW1606D8BFF5075T9" >[BAQ02NEW1606D] 新人满￥1599立减￥69优惠券</option>
+										</select>
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="order-section2">
+							<div class="orderprice" id="orderprice">
+								<div class="inner r">
+									<ul>
+										<li>
+											<span class="label"><em>商品总值</em></span>
+											<span>￥40.0</span>
+										</li>
+										<li>
+											<span class="label"><em>运费</em></span>
+											<span>￥90.0</span>
+										</li>
+										<li>
+											<span class="label"><em>获得积分</em></span>
+											<span>40</span>
+										</li>
+										<li class="total">
+											<span class="label"><em>商品总值</em></span>
+											<b class="pricetotal">￥130.0</b>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- 支付方式 -->
+						<div class="order-section">
+							<div class="order-section-title">
+								<i class="dottitle"><span>3</span></i><b>支付方式</b>
+							</div>
+							<div class="order-section-content">
+								<div class="payway">
+									<div class="payway-list">
+										<div class="payway-text">以人民币支付</div>
+										<ul>
+											<li>
+												<label>
+													<input type="radio" name="rmb">
+													<img src="../img/alipayin.jpg">
+												</label>
+											</li>
+											<li>
+												<label>
+													<input type="radio" name="rmb">
+													<img src="../img/WECHAT.jpg">
+												</label>
+											</li>
+											<li>
+												<label>
+													<input type="radio" name="rmb">
+													<img src="../img/TENPAY.jpg">
+												</label>
+											</li>
+										</ul>
+									</div>
+									<div class="payway-list">
+										<div class="payway-text">以港币支付</div>
+										<ul>
+											<li>
+												<label>
+													<input type="radio" name="rmb">
+													<img src="../img/unionpayin.jpg">
+												</label>
+											</li>
+										</ul>
+									</div>
+									<div class="payway-list">
+										<div class="payway-text">以美元支付</div>
+										<ul>
+											<li>
+												<label>
+													<input type="radio" name="rmb">
+													<img src="../img/VISA.jpg">
+												</label>
+											</li>
+											<li>
+												<label>
+													<input type="radio" name="rmb">
+													<img src="../img/Master.jpg">
+												</label>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="order-section2">
+							<div class="order-section-content">
+								<div class="chang-clause l">
+									<input type="checkbox" checked id="checked" name="clause">
+									<span>我同意接受莎莎网的<a href="#">使用条款</a>。</span>
+								</div>
+								<div class="settle-list l">
+									<p><span>香港直送，运送时间一般为7-14个工作天。</span></p>
+									<p><span>送货安排可参阅<a href="#">配送说明</a>或<a href="#">联络我们</a>。</span></p>
+									<p><span>兑换价格跟随当天的汇率兑换，谨供参考。</span></p>
+									<p><span>收费以信用卡发卡行帐单为准。</span></p>
+								</div>
+								<div class="settle-check r">
+									<ul>
+										<li><span class="label"><em>结账金额</em></span>
+										<span class="total-account">￥130.0</span></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="order-section2">
+							<div class="order-section-content">
+								<p class="btnarea">
+									<a href="cart.html">返回购物车</a>
+									<button type="submit">进行结账</button>
+								</p>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div id="help">
+			<div class="page">
+				<div class="btom-code">
+					<a href="#"><img src="../img/weixin.png"></a>
+				</div>
+				<div class="btom-code">
+					<a href="#"><img src="../img/weibo.png"></a>
+				</div>
+				<div class="btom-logo">
+					<h3></h3>
+				</div>
+				<div class="help-item">
+					<dl>
+						<dt>新手上路</dt>
+					</dl>
+					<ul>
+						<li><a href="#">购物流程</a></li>
+						<li><a href="#">优惠券说明</a></li>
+						<li><a href="#">常见问题</a></li>
+						<li><a href="#">联络我们</a></li>
+					</ul>
+				</div>
+				<div class="help-item">
+					<dl>
+						<dt>付款方式</dt>
+					</dl>
+					<ul>
+						<li><a href="#">在线支付</a></li>
+						<li><a href="#">积分支付</a></li>
+					</ul>
+				</div>
+				<div class="help-item">
+					<dl>
+						<dt>配送方式</dt>
+					</dl>
+					<ul>
+						<li><a href="#">配送说明</a></li>
+						<li><a href="#">追踪订单</a></li>
+					</ul>
+				</div>
+				<div class="help-item">
+					<dl>
+						<dt>售后服务</dt>
+					</dl>
+					<ul>
+						<li><a href="#">正品保证</a></li>
+						<li><a href="#">价格承诺</a></li>
+						<li><a href="#">30日退换保证</a></li>
+						<li><a href="#">退款程序</a></li>
+						<li><a href="#">更改订单</a></li>
+					</ul>
+				</div>
+				<div class="help-item">
+					<dl>
+						<dt>莎莎会员</dt>
+					</dl>
+					<ul>
+						<li><a href="#">积分悬赏</a></li>
+						<li><a href="#">会员计划</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="botm-link">
+				<a href="#">关于莎莎</a>
+				<a href="#">使用条款</a>
+				<a href="#">隐私政策</a>
+				<a href="#">招商合作</a>
+				<a href="#">帮助中心</a>
+				<a href="#">港澳店铺推广</a>
+				<a href="#">人才招聘</a>
+				<a href="#">联络我们</a>
+				<a href="#">网站地图</a>
+				<a href="#">其他送货地址</a>
+			</div>
+			<div id="over">
+				<div class="page">
+					<span class="l">© Copyright 2000-2016 Sa Sa dot Com Limited 版权所有。</span>
+					<span class="r">莎莎国际控股有限公司成员</span>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

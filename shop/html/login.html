@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+	<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/loginregister.css">
+	<script type="text/javascript" src="../js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="../js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="../js/common.js"></script>
+	<script type="text/javascript" src="../js/login.js"></script>
+</head>
+<body>
+	<div id="topbar">
+		<div class="topbar page">
+			<div id="login-bar" class="l">欢迎光临莎莎官网！ <span><a href="login.html">登录</a><span class="center">或</span><a href="register.html">免费注册</a></span></div>
+			<div id="member-bar" class="r">
+				<ul>
+					<li><div><a href="#">
+						<i class="icon"></i>我的账戶<i class="icon arr"></i>
+					</a></div>
+						<dl id="count-dl" style="display: none;">
+							<dd><a href="#">我的订单</a></dd>
+							<dd><a href="#">我的积分</a></dd>
+							<dd><a href="#">我的优惠券</a></dd>
+							<dd><a href="#">我的收藏</a></dd>
+							<dd><a href="#">我的评价</a></dd>
+						</dl>
+					</li>
+					<li><div><a href="#"><i class="icon"></i>我的收藏</a></div></li>
+					<li><div><a href="#"><i class="icon"></i>我的站内信</a></div></li>
+					<li><div><a href="#">积分中心</a></div></li>
+					<li><div><a href="#">Global Site</a></div></li>
+					<li><div><a href="#">关注我们<i class="icon arr"></i></a></div>
+						<!-- width: 210px; -->
+						<dl id="focus" style="display: none; width: 86px;">
+							<dt style="width: 85px;">
+								<a href="#">
+									<img src="../img/jiarushoucang.png">加入收藏
+								</a>
+								<a href="#">
+									<img src="../img/xinlangweibo.png">新浪微博
+								</a>
+								<a href="#">
+									<img src="../img/shashaweixin.png">莎莎微信
+								</a>
+								<a href="#">
+									<img src="../img/youkuship.png">优酷视频
+								</a>
+							</dt>
+							<dd style="display: none;">
+								<img src="../img/weiboewm.jpg">
+							</dd>
+							<dd style="display: none;">
+								<img src="../img/weixinewm.jpg">
+							</dd>
+							<dd style="display: none;">
+								<img src="../img/youkuewm.jpg">
+							</dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="header-main">
+		<div class="header-main page">
+			<div id="logo">
+				<a href="../index.html">
+					<img src="../img/logo.gif">
+				</a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="page">
+		<div class="container login clb">
+			<div id="page_signin" class="r">
+				<div class="sign-title">
+					用户登录
+					<span class="r">还没有莎莎账号？<a href="register.html">立即注册</a></span>
+				</div>
+				<div id="signupbox">
+					<form action="../index.html" method="post">
+						<ul>
+							<li class="form-item">
+								<input class="input" type="text" name="username" id="username" placeholder="邮箱/手机">
+								<span class="errormes"><i class="notice">!</i><span></span></span>
+							</li>
+							<li class="form-item">
+								<input class="input" type="password" name="password" id="password" placeholder="填写密码">
+								<span class="errormes"><i class="notice">!</i><span></span></span>
+							</li>
+							<li class="form-item">
+								<input type="checkbox" name="is_remember" id="is_remember" checked>
+								<label for="is_remember">记住我</label>
+								<a href="#">忘记密码？</a>
+							</li>
+							<li class="form-item-normal">
+								<button type="submit" class="login-btn" id="login-btn">登录</button>
+							</li>
+						</ul>
+					</form>
+					<div id="other-login">
+						<p>第三方账号登录</p>
+						<ul>
+							<li><a href="#">
+								<img src="../img/QQ.jpg">QQ登录
+								</a>
+							</li>
+							<li><a href="#">
+								<img src="../img/xinlang.jpg">微博登录</a>
+							</li>
+							<li><a href="#">
+								<img src="../img/zhifubao.jpg">支付宝登陆</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<footer>
+		<div id="over">
+			<div class="page">
+				<span class="l">© Copyright 2000-2016 Sa Sa dot Com Limited 版权所有。</span>
+				<span class="r">莎莎国际控股有限公司成员</span>
+			</div>
+			</div>
+	</footer>
+</body>
+</html>

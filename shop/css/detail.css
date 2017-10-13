@@ -1,0 +1,188 @@
+input:hover,input:focus{border-color:#ec3e7d !important; box-shadow:0 0 5px #ec3e7d !important;}
+/*-------------------    container     ----------------*/
+#container{background:#ebebeb; overflow:hidden;}
+#container .bread-crumbs{height: 20px; line-height: 20px; font-size:14px; overflow: hidden; margin: 15px auto; color: #888;}
+#container .bread-crumbs a{color:#888;}
+#container .bread-crumbs a:hover{color:#000;}
+#container #main{overflow:hidden;}
+
+/*-------------------    promaincontent 商品详情    ----------------*/
+.promaincontent{background: #fff; margin-bottom: 30px; overflow:hidden;}
+.promaincontent #kill-time{background: #bf9b5f; height: 58px; line-height: 50px; color: #fff; font-size: 24px; padding-left: 15px; position: relative;}
+.promaincontent #kill-time s{width: 20px; height: 19px; background: url(../img/tips.png) no-repeat -360px -405px; display: block; position: absolute; left: 40px; top: 50px;}
+.promaincontent #kill-time .buy-num{font-size: 14px; padding-right: 30px;}
+.promaincontent #kill-time .buy-num b{font-size:24px;}
+.promaincontent #time-area{width: 54%;}
+.promaincontent #time-area .icon{color:#fff; font-size:30px;}
+.promaincontent .pro-side{width:550px;}
+.promaincontent .pro-side .sidecount{width: 68px; height: 68px; padding: 40px 40px 0 0; background: url(../img/tips.png) no-repeat; background-position: 0 -489px; color: #fff; margin: 10px 0 0 35px; display: block; text-align: right;}
+.promaincontent .pro-side .sidecount b{font-family: Georgia,"Times New Roman",Times,serif; font-size: 40px; margin-right: 5px; font-weight: normal; font-style: italic;}
+.promaincontent #pro-album{width: 500px; margin: 25px auto; position: relative;}
+.promaincontent #pro-album img.vip{width: 55px; height: 55px; margin-bottom: 5px;}
+.promaincontent #pro-album .album-view{position:relative;}
+.promaincontent #pro-album .album-pic{width: 300px; height: 300px; line-height: 298px; overflow: hidden; text-align: center; font-family: Arial; margin: 0 auto; position: relative;}
+.promaincontent #pro-album .album-pic img{max-width: 300px; max-height: 300px;}
+.promaincontent #pro-album .album-pic .mask{display:none; width: 200px; height: 150px; position: absolute; top:0; left:0; z-index: 200; cursor: move; overflow: hidden; background-color: #B3D5FF; opacity: 0.5;}
+.promaincontent #pro-album .pro-tips{width: 88%; margin: 0 auto 20px auto;}
+.promaincontent #pro-album .pro-tips dd{display: inline-block; font-size:14px; margin-right: 10px; color: #999; float: left;}
+.promaincontent #pro-album .pro-tips dd img{vertical-align: middle; margin-right: 5px; max-height: 20px;}
+.promaincontent #pro-album .album-list{margin-top: 10px; width: 100%; position: relative; clear: left;}
+.promaincontent #pro-album .album-list .flip{position: absolute; top: 0; margin-top: 5px; width: 16px; height: 105px; line-height: 64px; text-align: center; border-radius: 8px; -webkit-border-radius: 8px;}
+.promaincontent #pro-album .album-list .prev{left:0;}
+.promaincontent #pro-album .album-list .next{right:0;}
+.promaincontent #pro-album .album-list .flip a{color: #e5cbb2; font-size: 28px; margin-left: -1px; display: block; margin-top: 15px;}
+.promaincontent #pro-album .album-list .over a{color: #cccccc; cursor: default; display: block;}
+
+.promaincontent #pro-album .album-list .pic-list{margin: 0 26px; padding-top: 5px; overflow: hidden; width: 450px; height: 105px;}
+.promaincontent #pro-album .album-list .pic-list ul{width: 542px; margin-left: 0px;}
+.promaincontent #pro-album .album-list .pic-list li{margin: 0 5px 0 0; float: left;}
+.promaincontent #pro-album .pic-list li .picbox{width: 100px; height: 100px; line-height: 100px; border: 1px solid #ddd; overflow: hidden; text-align: center; font-family: Arial;}
+.promaincontent #pro-album .pic-list li.active .picbox{border: 5px solid #e5cbb2; width: 93px; height: 94px;}
+.promaincontent #pro-album .pic-list li .picbox img{max-width: 60px; max-height: 60px; vertical-align: middle;}
+
+.promaincontent .pro-main{width: 460px; padding-top: 25px; margin-right: 40px; position:relative;}
+.promaincontent .pro-main .protitles{padding-bottom: 30px; line-height: 1.2; text-align: left; font-size: 22px; font-weight: normal;}
+.promaincontent .pro-main .protitles .icon{font-size: 25px; vertical-align: super;}
+.promaincontent .pro-main .pro-line{border-left: 1px dashed #f0eee2; padding-left: 30px; margin-left: -30px; clear: both;}
+.promaincontent .pro-main .pro-line .protit,
+.promaincontent .pro-main .pro-line .protitname{color: #505a64; font-size: 18px; line-height: 26px;}
+.promaincontent .pro-main .pro-line .detailwords{clear: both; margin-bottom: 10px; overflow: hidden; margin-top: 20px;}
+.promaincontent .pro-main .pro-line .detailwords a{float: left; border: 1px solid #c69a62; border-radius: 15px; padding: 2px 10px 0; margin-right: 8px; display: block; color: #c69a62; font-size: 12px; margin-bottom: 5px;}
+.promaincontent .pro-main .pro-line .detailwords a:hover{color:#ec3e7d; border-color:#ec3e7d;}
+.promaincontent .pro-main .pro-line .proinformation{line-height: 2; float: left; width: 100%; padding-bottom: 40px;}
+.promaincontent .pro-main .proinformation .probuy{padding: 10px 0; margin-top: 10px;}
+.promaincontent .pro-main .proinformation .probuy .probuynum{margin-bottom: 20px;}
+.promaincontent .pro-main .proinformation .probuy .probuynum span{margin-top: 3px; display: inline-block;}
+.promaincontent .pro-main .proinformation .probuy .probuynum label{font-size:14px; float:left;}
+.promaincontent .pro-main .proinformation .probuy .probuynum a{display: inline-block; width: 20px; height: 21px; overflow: hidden; vertical-align: middle; border: 1px solid #f2f2f2; text-align: center; font: 14px/22px simsun,serif; background: #f2f2f1; font-weight: bold;}
+.promaincontent .pro-main .proinformation .probuy .probuynum input{width: 30px; font-size:14px; outline:#ec3e7d; font-family: inherit; height: 21px; line-height: 21px; padding: 0; margin: 0; vertical-align: middle; border-width: 1px 0; border-style: solid; border-color: #f2f2f2; text-align: center;}
+.promaincontent .pro-main .proinformation .probuy .probuynum a:hover{color:#fff; background:#ccc;}
+.promaincontent .pro-main .proinformation .probuy .proprice{position: relative; padding-bottom: 5px; margin-bottom: 5px;}
+.promaincontent .pro-main .proinformation .probuy .proprice li{clear: both; padding: 5px 0;}
+.promaincontent .pro-main .proinformation .probuy .proprice .detailprice{height: 24px; font-size:14px; color: #888; padding-left: 5px;}
+.promaincontent .pro-main .proinformation .probuy .detailprice ins{font-size: 35px; line-height: 1.2; text-decoration: none; font-weight: bold; color: #ec3e7d;}
+.promaincontent .pro-main .proinformation .probuy .proprice .oldprice{margin-left: 15px; margin-right: 15px;   text-decoration: line-through;}
+.promaincontent .pro-main .proinformation .buy-btn{margin: 20px auto;}
+.promaincontent .pro-main .proinformation #addtocart{margin-right: 15px; width: 220px; height: 50px; outline:none; color:#fff; font-size:16px; font-family: inherit; background: #ec3e7d; line-height: 50px; border:0; cursor:pointer; overflow: hidden; font-weight: bold; display: inline-block; vertical-align: middle; text-align: center;}
+.promaincontent .pro-main .proinformation .code-pro{border: 1px solid #dedede; padding: 15px 18px; color: #999; position: relative;}
+.promaincontent .pro-main .proinformation .code-pro button{color:#999; cursor:pointer; outline:none; font-size:14px; font-family: inherit; margin-right: 0; padding: 3px 5px; border: 1px solid white; border-top-width: 0; background:#fff;}
+.promaincontent .pro-main .proinformation .code-pro .icon{color:#999;}
+.promaincontent .pro-main .proinformation .code-pro .procode{position: absolute; z-index: 1; left: -1px; bottom: 46px; padding: 1px; background-color: white; border: 1px solid #cccccc; box-shadow: 1px 1px 1px rgba(151,151,151,0.5); -webkit-box-shadow: 1px 1px 1px rgba(151,151,151,0.5); -moz-box-shadow: 1px 1px 1px rgba(151,151,151,0.5);}
+.promaincontent .pro-main .proinformation .proscore{font-size:14px; padding: 10px 0; margin-bottom: 10px;}
+.promaincontent .pro-main .proinformation .proscore .label{float:left;}
+.promaincontent .pro-main .proinformation .proscore .detail{height: 24px; color: #3e3e3e; padding-left: 5px;}
+.promaincontent .pro-main .proinformation .proscore .stars{position: relative; font-size: 15px; line-height: 1.6; letter-spacing: 1px; display: inline-block;}
+.promaincontent .pro-main .proinformation .proscore .below{color: #ddd; width: 80px; display: inline-block;}
+.promaincontent .pro-main .proinformation .proscore .above{position: absolute; left: 0; top: 0; color: #c29b60; overflow: hidden; width: 100%;}
+.promaincontent .pro-main .proinformation .proscore .ico{font-style: normal; color: #c69a62;}
+.promaincontent .pro-main .proshare{border-top: 1px solid #dfdfdf; margin-top: 15px; padding-top: 20px;}
+.promaincontent .pro-main .proshare .share{width: 230px; text-align: right; font-size:14px;}
+.promaincontent .pro-main .proshare .share .share-mini{width: 175px;}
+.promaincontent .pro-main .proshare .share a{line-height: 16px; padding: 5px 2px; display: block; white-space: nowrap;}
+.promaincontent .pro-main .proshare .share li{float:left;}
+.promaincontent .pro-main .proshare .share .ic{width: 20px; height: 20px; display: inline-block; vertical-align: -3px; background-image: url(../img/share.png); margin-right: 5px;}
+.promaincontent .pro-main .proshare .addfav{display: inline-block; white-space: nowrap; vertical-align: middle;}
+.promaincontent .pro-main .proshare .addfav .icon{margin-right:5px; font-size:16px; color:#666;}
+.promaincontent .pro-main .proshare .addfav .text{padding: 0 3px; font-size:14px; color: #666; font-style: normal; margin-left: -4px;}
+
+.promaincontent .pro-main .bigmirror{display:none; height:300px; width:400px; position:absolute; top:170px; left:0; border: 1px solid #cccccc; z-index: 10000; overflow:hidden;}
+.promaincontent .pro-main .bigmirror img{display:block; position:absolute; top:0; left:0;}
+
+
+/*-------------------    proleft 商品精选    ----------------*/
+.proleft{width: 253px;}
+.proleft .graybox{background: #fff; overflow: hidden; margin-bottom: 26px;}
+.proleft .graybox .graytitle{height: 50px; line-height: 50px; border-left: 5px solid #c69a62; border-bottom: 1px solid #ebebeb; color: #585c65; font-size: 16px; padding-left: 12px; position: relative;}
+.proleft .graybox .graycon .proitem{height: 69px; border-top: 1px dashed #d4d4d4; padding: 20px 10px; margin-top: -1px;}
+.proleft .graybox .graycon .proitem .proimg{display: block; width: 69px; height: 69px; overflow: hidden; float: left; text-align: center;}
+.proleft .graybox .graycon .proitem .proimg img{max-width: 69px; max-height: 69px;}
+.proleft .graybox .graycon .proitem .proinfo{margin-left: 79px; overflow: hidden; font-size:14px;}
+.proleft .graybox .graycon .proitem .proinfo .proname{display: block; width: 100%; max-height: 45px; overflow: hidden;}
+.proleft .graybox .graycon .proitem .proinfo .proname a{color: #3e3e3e;}
+.proleft .graybox .graycon .proitem .proinfo .proprice{width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: #ec3e7d;}
+.proleft .graybox .graycon .proitem .proinfo .proprice del{margin-left: 10px; color: #959595; font-size: 12px;}
+
+
+/*-------------------    promaincont 商品详情 评论 咨询    ----------------*/
+.promaincont{width: 811px; margin-bottom: 30px;}
+.promaincont .contop{height:76px;}
+.contop .pro-tags{background: #fff; height: 50px; width:811px;}
+#pro-tags .tags-hd{font-size: 14px; float: left; margin-right: 5px; font-weight: normal;}
+#pro-tags .tags-hd.active{border-bottom: 3px solid #c69a62;}
+#pro-tags a{color: #555c67; border: 1px solid white; display: block; padding: 2px 26px; height: 42px; line-height: 42px; font-size: 16px;}
+#pro-tags .tags-addtocart{width: 260px;}
+#pro-tags .tags-addtocart .price{line-height: 50px; color: #ec3e7d; font-size: 24px;}
+#pro-tags .tags-addtocart .btn{background: #ec3e7d; padding: 0px 20px; height: 50px; line-height: 50px; color: #fff; font-size: 16px; float: right; margin-left: 15px; border: 0;}
+#pro-section .pro-section{overflow: hidden;}
+#pro-section .pro-parameters{margin-bottom: 26px;}
+#pro-parameters .pro-attr{padding-top: 20px; margin-bottom: 0; background-color: #fff;}
+#pro-section .modtitle{height: 32px; border-left: 3px solid #db3f7e;}
+#pro-section .modtitle .modtitle-text{line-height: 32px; font-weight: 400; padding-left: 10px; font-size: 21px;   background: url(../img/probt.png) no-repeat 110px 3px;}
+#pro-parameters .pro-attr ul{padding: 30px 45px;}
+#pro-parameters .pro-attr ul li{clear: both; color: #333; padding: 6px 0; font-size:14px;}
+#pro-parameters .pro-attr li span{width: 140px; color: #666; display: inline-block;}
+#pro-parameters .pro-attr li .attrcont{  width: 580px; float: right; text-align: left;}
+
+#pro-detail .prodearea{background: #fff; overflow: hidden; margin-bottom: 26px; padding-top: 20px;}
+#pro-detail .prodearea .modtitle-text{background-position: 110px -46px;}
+#pro-detail .prodearea .dearea-cont{padding: 40px 30px;}
+#pro-detail .prodearea .dearea-cont table{border-collapse: collapse; border-spacing: 0;}
+#pro-detail .prodearea .dearea-cont img{max-width: 100%;}
+
+#pro-pics .propics{background: #fff; overflow: hidden; margin-bottom: 26px; padding-top: 20px;}
+#pro-pics .propics .modtitle-text{background-position: 110px -100px;}
+#pro-pics .propics .dearea-cont{padding: 40px 30px;}
+#pro-pics .propics .dearea-cont img{max-width: 100%;}
+
+#pro-comment .procomment{background: #fff; overflow: hidden; margin-bottom: 10px; padding-top: 20px;}
+#pro-comment .procomment .modtitle-text{background-position: 110px -146px;}
+#pro-comment .procomment .commentcont{padding: 10px; line-height: 24px;}
+#pro-comment .procomment .commentcont table{margin-top: 20px; border-collapse: collapse; border-spacing: 0; width: 100%; line-height: 24px;}
+#pro-comment .procomment .commentcont td{padding: 15px 10px;}
+#pro-comment .procomment .commentcont p{font-size: 24px; line-height: 40px; padding-left: 45px; color: #db3f7e;}
+#pro-comment .procomment .commentcont p b{font-size:36px;}
+#pro-comment .procomment .commentcont a{border: 2px solid #ec3e7d; padding: 4px 30px; font-size: 18px; color: #ec3e7d;}
+
+/* 评分星级 */
+#pro-comment .procomment .commemtstars{width: 105px;}
+#pro-comment .procomment .commemtstars .stars{position: relative; font-style: normal; font-size: 20px; line-height: 1.6; letter-spacing: 1px; display: inline-block;}
+#pro-comment .procomment .commemtstars .below{color: #ddd; width: 105px; display: inline-block;}
+#pro-comment .procomment .commemtstars i{font-style: normal; color:#c29b60;}
+#pro-comment .procomment .commemtstars .above{position: absolute; left: 0; top: 0; overflow: hidden;}
+
+#pro-comment .procomment .commentcont .titleall{font-size:14px; padding-left: 55px; margin-top: -20px;}
+#pro-comment .commentcont .content-list{margin-top: 50px; font-size:14px;}
+#pro-comment .commentcont .content-list .comment-item{margin: 15px 0 40px 0;}
+#pro-comment .commentcont .content-list .comment-item .member{width: 145px; float: left; text-align: center; margin-right: 5px;}
+#pro-comment .commentcont .content-list .comment-item .member-avatar{width: 60px; height: 60px; line-height: 58px; overflow: hidden; text-align: center; font-family: Arial; margin: 0 auto; padding: 1px;}
+#pro-comment .commentcont .content-list .comment-item .icon{font-size: 60px; color: #e4e4e4;}
+#pro-comment .commentcont .content-list .comment-item .skintype{color: #b2b2b2; line-height: 32px;}
+
+#pro-comment .content-list .comment-item .member-discuss{position: relative; width: 575px; margin-left: 150px; padding: 20px 24px; background-color: #f2f2f2; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px;}
+#pro-comment .comment-item .member-discuss .pointleft{position: absolute; overflow: hidden; font-size: 0; line-height: 0; width: 20px; height: 20px; top: 20px; left: -20px;}
+#pro-comment .comment-item .member-discuss .pointleft i{position: absolute; width: 0; height: 0; overflow: hidden; border: 10px dashed transparent;}
+#pro-comment .comment-item .member-discuss .pointleft .below{left: -1px;}
+#pro-comment .comment-item .member-discuss .pointleft .above{border-right-color: #f2f2f2; left: 0px; top: 0;}
+#pro-comment .comment-item .member-discuss .discuss-label{overflow: hidden; padding-bottom: 5px;}
+#pro-comment .comment-item .member-discuss .contitle{float: left; margin-right: 20px; color: #ec3e7d; font-size: 18px; width: 40%; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;}
+#pro-comment .comment-item .member-discuss .conpointer{margin-right: 5px;}
+#pro-comment .comment-item .member-discuss .commemtstars{width:auto; height:24px;}
+#pro-comment .comment-item .member-discuss .commemtstars .below{width:80px;  font-size:15px;}
+#pro-comment .comment-item .member-discuss .commemtstars .above{width:80px;  font-size:15px;}
+#pro-comment .comment-item .member-discuss .discuss-con{clear: right; padding: 8px; border-top: 1px solid #ec3e7d; color: #575e68;}
+#pro-comment .comment-item .member-discuss .discuss-detail{color: #575e68; font-size:14px; line-height:24px; padding:0;}
+#pro-comment .comment-item .member-discuss .discuss-time{font-size: 14px; color: #bebebe; clear: both; line-height: 40px; padding:0;}
+
+#pro-comment .pageview{margin: 10px 0; text-align: right; line-height: 20px; font-size: 12px; clear: both; padding: 20px 0;}
+#pro-comment div.pageview .flip{border: 1px solid #ddd; font-size:12px; color: #666; display: inline-block; vertical-align: middle; margin-left: 5px; width: auto; letter-spacing: 0; border-radius: 14px; padding: 0 7px;}
+#pro-comment .pageview .over{color: #ccc; cursor: not-allowed; background-color: #f3f3f3;}
+#pro-comment .pageview .prev,#pro-comment .pageview .next {padding: 0 4px !important; }
+#pro-comment .pageview .icon{font-size:12px; color:#666;}
+#pro-comment .pageview a:hover{color:#ec3e7d; border:3px solid #ec3e7d;}
+#pro-comment .pageview a:hover .icon{color:#ec3e7d;}
+
+
+
+
+
+

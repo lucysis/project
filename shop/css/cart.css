@@ -1,0 +1,70 @@
+input:hover,input:focus{border-color:#ec3e7d !important; box-shadow:0 0 5px #ec3e7d !important;}
+/*------------------------        header           ---------------------*/
+#header{background: #fff; position: relative; z-index: 300; height:95px;}
+#header .carticon{padding-top: 30px; width: 235px; overflow: hidden;}
+#header .carticon img{max-width: 235px; max-height: 62px;}
+#header .cartstep{width: 472px; height: 62px; float: left; margin: 20px 0 0 280px; background: url(../img/cartstep.png) no-repeat; overflow: hidden;}
+#header .logo{width: 300px; height: 45px; position: absolute; top: 21px; overflow: hidden;}
+
+/*------------------------        content           ---------------------*/
+#content{background:#f5f5f5; font-size:14px; overflow:hidden;}
+#content .cartcontainer{padding-top: 20px; width: 985px; margin: 0 auto;}
+#content .cartcontainer .carttitle{margin: 20px 0 0px; height: 38px; text-indent: -9999px; overflow: hidden; background: url(../img/title-bg.png) no-repeat; background-position: 0 -845px;}
+#content #cart-main{color: #666; background: #fff; table-layout: fixed; border-collapse: collapse; border-spacing: 0;}
+#content #cart-main td{line-height: normal; vertical-align: top; text-align: center; padding: 0;}
+#content #cart-main .carttable-pla{background-color: #f5f5f5;}
+#content #cart-main tr.carttable-pla td:after{content: 'placeholder'; visibility: hidden;}
+#content #cart-main .carttips{text-align: right; padding-bottom: 10px; background-color: #f5f5f5;}
+#content #cart-main .pink{color: #ec3e7d;}
+#content #cartdetail{background-color: #fff; width: 100%; table-layout: fixed; position: relative; border-collapse: collapse; border-spacing: 0;}
+#content #cartdetail thead{background-color: #fff; border-bottom: 1px dotted #eee; height:37px;}
+#content #cartdetail thead tr{height:37px;}
+#content #cartdetail thead th{font-weight: 400; color: #666; font-size: 14px;}
+#content #cartdetail thead th:first-child{position: relative; padding-left: 10px; text-align: left;   width: 201px;}
+#content #cartdetail thead th:first-child:after{position: absolute; content: ''; left: 0; top: 0; border-left: 5px solid #ed407e; height: 100%;}
+#content #cartdetail thead th.th2{width: 376px; text-align: left;}
+
+#content #cartdetail tbody .td1{padding-top: 0;}
+#content #cartdetail tbody .td1,
+#content #cartdetail tbody .td2{text-align: left;}
+#content #cartdetail tbody .td1 .cart-chexkbox{display: inline-block; vertical-align: top; padding-top: 24px; padding-left: 10px;}
+#content #cartdetail tbody .td1 input[type='checkbox']{height: 13px; width: 20px; box-shadow: none; outline:none;}
+#content #cartdetail tbody .td1 .cart-pic{display: inline-block; width: 100px; height: 100px; padding-top: 15px; padding-bottom: 15px;}
+#content #cartdetail tbody .td1 .cart-pic img{vertical-align: top; display: block; max-width: 100px; max-height: 100px; overflow: hidden;}
+#content #cartdetail tbody .td2{padding-top: 25px; padding-bottom: 25px;}
+#content #cartdetail tbody .td2 .table-spec{padding-top: 10px; color: #b2b2b2;}
+#content #cartdetail tbody .td2 li{padding-top:10px;}
+#content #cartdetail tbody .td2 i{background: #be9a5e; padding: 1px 5px; color: #fff; font-style: normal; display: inline-block; margin-right: 6px;}
+#content #cartdetail tbody td.price{padding-top:25px;}
+#content #cartdetail tbody .td4{padding-top: 25px;}
+#content #cartdetail tbody .td4 .pronum{width: 74px; margin: 0 auto; overflow: hidden;}
+#content #cartdetail tbody .td4 .pronum a{float: left; width: 20px; height: 21px; overflow: hidden; background: #f4f6f5; text-align: center; vertical-align: middle; font: 14px/22px simsun,serif; color: #5b636b;}
+#content #cartdetail tbody .td4 .pronum input{float: left; width: 30px; height: 19px; line-height: 19px; border-width: 1px 0; border-style: solid; border-color: #e9e9e9; text-align: center; padding: 0; margin: 0; vertical-align: middle;}
+#content #cartdetail tbody .td4 .pronum a:hover{color:#fff; background:#ccc;}
+#content #cartdetail tbody .td5{padding-top:25px;}
+#content #cartdetail tbody td:last-child {padding-top:25px; padding-right: 20px;}
+#content #cartdetail tbody td:last-child a{color: #b2b2b2;}
+
+#content #cart-main tr .freetrans{line-height:38px; margin-left: -280px;}
+
+#content .promotion{background-color: #fff; width: 100%; table-layout: fixed; position: relative; border-collapse: collapse; border-spacing: 0;}
+#content #cartpromotion thead tr{height:37px;}
+#content #cartpromotion thead th{font-weight: 400; color: #666; font-size: 14px;}
+#content #cartpromotion thead th:first-child{position: relative; padding-left: 10px; text-align: left;   width: 201px;}
+#content #cartpromotion thead th:first-child:after{position: absolute; content: ''; left: 0; top: 0; border-left: 5px solid #ed407e; height: 100%;}
+#content #cartpromotion thead th.th2{width: 376px; text-align: left;}
+#content #order .checkmoney{line-height: 42px; padding-left: 25px;}
+#content #order .checkmoney .l a:last-child{margin-left:20px;}
+#content #order .checkmoney .r .procount{padding-right: 35px;}
+#content #order .checkmoney .r .procount span{color:#f00;}
+#content #order .checkmoney .r .procount b{vertical-align: -1px; color: #db3f7e; font-size: 18px;}
+#content #order .checkmoney .r button{vertical-align: top; font-size: 16px; border: 0 none; background-color: transparent; padding: 0; white-space: nowrap; cursor: pointer; font-family: inherit; height: 40px; line-height: 40px; background: #ec3e7d; color:#fff; padding:0 50px;}
+
+
+
+
+
+
+
+
+

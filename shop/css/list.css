@@ -1,0 +1,38 @@
+/*-----------------------       banner          ------------------*/
+#banner{height:880px;}
+#banner img{margin-left:-329px;}
+
+/*-----------------------       content          ------------------*/
+#content{background:#ececee; padding-top:30px; overflow:hidden;}
+#content .ad{width: 1090px; overflow: hidden; margin: 0 auto 20px auto;}
+#content .arrivalslist{width: 1150px; padding: 5px 0 30px 0; margin-left: -26px;}
+#content .arrivalslist li{position:relative; z-index:2; width: 253px; height: 485px; float: left; margin: 0 0 25px 26px;}
+#content .arrivalslist .formall{width: 253px; height: 482px; background: #fff; position: absolute; left: 0; top: 0; -webkit-transition: all .2s linear 0s; -moz-transition: all .2s linear 0s; -ms-transition: all .2s linear 0s; transition: all .2s linear 0s;}
+#content .arrivalslist .formallpic{z-index:10; position: relative; width: 253px; height: 253px; overflow: hidden; -webkit-transition: all 0.2s linear 0s; -moz-transition: all 0.2s linear 0s; -ms-transition: all 0.2s linear 0s; transition: all 0.2s linear 0s;}
+#content .arrivalslist .formallpic b{position: absolute; width: 45px; height: 45px; display: block; color: #fff; top: 5px; left: 5px; font-size: 15px;}
+#content .arrivalslist .formallpic b>img{width: 43px; height: 43px; margin: 0 auto; display: block;}
+#content .arrivalslist .formallpic dl{position: absolute; top: 5px; right: 5px;}
+#content .arrivalslist .formallpic dd{color: #98999b; font-size:14px;}
+#content .arrivalslist .formallpic dd .country{width: 21px; height:22px; display: inline-block; vertical-align: middle; margin-right: 6px;}
+#content .arrivalslist .formallpic dd .country>img{max-width: 22px; max-height: 22px; margin: 0;}
+#content .arrivalslist .formallpic img{width: auto; height: 253px; margin: 0 auto; display: block;}
+#content .arrivalslist .price{border-bottom: 1px solid #eee; font-size:14px; border-top: 1px solid #eee; padding: 10px 15px; color: #858587;}
+#content .arrivalslist .price .count{color: #c69a62; margin-top: 2px;}
+#content .arrivalslist .price .saleprice{font-size: 24px; margin-right: 10px; color: #ec3e7d;}
+#content .arrivalslist .price .dis{font-size:14px; line-height:24px;}
+#content .arrivalslist .formallinfo{padding: 12px 15px; overflow: hidden; position:relative;}
+#content .arrivalslist .formallinfo .infocont{height: 82px; overflow: hidden; color: #404040;}
+#content .arrivalslist .formallinfo .des1{color: #404040; height: 20px; overflow: hidden; white-space: nowrap; padding: 0; line-height: 20px; font-size: 13px; text-overflow: ellipsis; font-weight: bold;}
+#content .arrivalslist .formallinfo .des1 a{color:#404040;}
+#content .arrivalslist .formallinfo .des2{overflow: hidden; line-height: 20px; font-size: 13px; height: 40px;}
+#content .arrivalslist .formallinfo .tag {height: 22px;}
+#content .arrivalslist .formallinfo .tag a{background: #c69a62; display: inline-block; float: left; margin-right: 5px; font-size: 12px; padding: 0 5px; color: #fff; border-radius: 3px; margin-bottom: 4px;}
+#content .arrivalslist .buybtn{padding: 10px 15px; display: block; position:absolute; bottom:10px; left:50%; margin-left:-127px;} 
+#content .arrivalslist .buybtn span{display: block; text-align: center; padding: 2px 0px; width: 224px; background: #ec3e7d; line-height: 35px; color: #fff; font-size: 16px;}
+
+#content .arrivalslist .formall-pic{z-index:5; display: none; width: 85px; height: 253px; position: absolute; right: 0; top:0; }
+#content .arrivalslist .formall-pic .formalllist{position: absolute; top: 0; right: 0; border-left: 1px solid #e0e0e0; height: 253px; overflow: hidden;}
+#content .arrivalslist .formall-pic .formalllist dd{width: 84px; height: 84px; border-top: 1px solid #e0e0e0; margin-top: -1px;}
+#content .arrivalslist .formall-pic .formalllist dd img{width: 76px; height: 76px; border: 4px solid #fff; cursor: pointer;}
+
+#content .arrivalslist li:hover .formall{box-shadow:0 0 20px #999;}

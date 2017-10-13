@@ -1,0 +1,88 @@
+
+/*-----------------------    banner      ---------------------*/
+#banner{width: 100%; margin: 0 auto; clear: both; background: #e7ddd4;}
+#banner .banner-container{height: 420px;}
+#banner #banner-box{width: 100%; height: 420px; overflow: hidden; position: relative;}
+#banner #banner-box ul{position:absolute;}
+#banner #banner-box ul li{z-index: 1; opacity: 0; width: 1263px; height: 420px; position: absolute;}
+#banner #banner-box ul li img{height: 420px; margin-left:-328px;}
+#banner #banner-box #J_slideTrigger{position: absolute; z-index: 60; bottom: 10px; left: 50%;   margin-left: -26px;}
+#banner #banner-box #J_slideTrigger li{float: left; background-color: #999; width: 12px; height: 12px; margin-left: 8px; border-radius: 50%;}
+#banner #banner-box #J_slideTrigger li:first-child{margin-left: 0px;}
+#banner #banner-box #J_slideTrigger li.active{background-color: #ec3e7d;}
+
+/*-----------------------    mustcheck      ---------------------*/
+#mustcheck{position: relative; background: #fff; padding-top: 30px; padding-bottom: 2px;}
+#mustcheck .mustcheckbt{border-bottom: 4px solid #ec3e7d; height: 20px; position: relative; text-align: center; margin: 0 auto 43px auto; width: 1090px;}
+#mustcheck .mustcheckbt span.bticon{border-left: 15px solid #fff; border-right: 15px solid #fff; background-color: #fff; text-indent: -9999px; width: 310px; height: 31px; display: block; margin: 0 auto; }
+#mustcheck .mustcheckbt span{background: url(../img/title-bg.png) no-repeat; overflow: hidden;}
+#mustcheck .page{height:555px;}
+#mustcheck .page li{width: 271px; height: 271px; border: 1px solid #bfc1c2; float: left; margin: -1px 0 0 -1px; text-align: center; overflow:hidden;}
+#mustcheck .page li.spec{width:272px;}
+
+/*-----------------------    limitedoffer      ---------------------*/
+#limitedoffer{height:1268px; background:#f2f2f2; padding-top:40px;}
+#limitedoffer .flashsalebt{margin-bottom: 10px; border-bottom: 4px solid #ec3e7d; padding-bottom: 25px;}
+#limitedoffer .flashsalebt a{float: right; padding-top: 5px; font-size: 15px;}
+#limitedoffer .flashsalebt a:hover{color:#ec3e7d;}
+#limitedoffer .flashsalebt span{text-indent: -9999px; width: 345px; height: 31px; display: block; }
+#limitedoffer .flashsalebt span.bticon{background: url(../img/title-bg.png) no-repeat; background-position: 0 -400px; overflow: hidden;}
+#limitedoffer #flashsalelist li{width: 346px; height: 560px; background: #fff; float: left; margin: 0 0 25px 25px;}
+#limitedoffer #flashsalelist li.noml{margin-left:0;}
+#limitedoffer #flashsalelist li a{width: 346px; height: 574px; display: block; position: relative;}
+#limitedoffer #flashsalelist li .count{display: block; position: absolute; z-index:101; width: 68px; height: 68px; right: 20px; top: 225px; padding: 40px 40px 0 0; text-align: right; background: url(../img/tips.png) no-repeat; background-position: 0 -489px; }
+#limitedoffer #flashsalelist li .count b{font-family: Arial,Helvetica,sans-serif; color: #fff; font-size: 40px; font-weight: normal; font-style: italic; margin-right: 6px;}
+#limitedoffer #flashsalelist li .buynow{display: none; position: absolute; width: 236px; height: 228px; background: url(../img/tips.png) no-repeat; z-index: 100; top:50px; left:60px;}
+#limitedoffer #flashsalelist li .flashsale-pic{width: 346px; height: 346px; overflow: hidden; display: block;}
+#limitedoffer #flashsalelist li .flashsale-pic img{height: 346px; display: block; margin: 0 auto;}
+#limitedoffer #flashsalelist li .flashsale-pic img.blur{-webkit-filter: blur(20px); -moz-filter: blur(20px); -ms-filter: blur(20px); filter: blur(20px);}
+#limitedoffer #flashsalelist li .sale-price{border-bottom: 1px solid #eee; border-top: 1px solid #eee; padding: 10px 15px; color: #858587;}
+#limitedoffer #flashsalelist li .sale-price .buy-num{font-size: 14px; padding-right: 30px;}
+#limitedoffer #flashsalelist li .sale-price .price{font-size: 24px; margin-right: 10px; color: #ec3e7d;}
+#limitedoffer #flashsalelist li .sale-price .dis{font-size:14px;}
+#limitedoffer #flashsalelist li .flashsale-info{padding: 5px 15px; overflow: hidden;}
+#limitedoffer #flashsalelist li .flashsale-info .des1{height: 55px; overflow: hidden; line-height: 25px; font-size: 15px; margin-bottom: 2px; font-weight: bold;}
+#limitedoffer #flashsalelist li .icon{font-weight: normal; vertical-align: super; font-family: "iconfont" !important; font-style: normal; -webkit-font-smoothing: antialiased; -webkit-text-stroke-width: 0px; -moz-osx-font-smoothing: grayscale; line-height: 1; color: #c69a62; font-size: 18px; margin-right: 5px;}
+#limitedoffer #flashsalelist li .des2{color: #808082; height: 20px; overflow: hidden; white-space: nowrap; padding: 0; line-height: 20px; font-size: 13px; text-overflow: ellipsis; font-weight: bold;}
+#limitedoffer #flashsalelist li .des3{overflow: hidden; line-height: 20px; font-size: 13px; height: 40px;color: #808082;}
+#limitedoffer #flashsalelist li .des4{color: #808082;}
+#limitedoffer #flashsalelist li:hover{box-shadow: 0px 0px 15px rgba(0,0,0,0.8);}
+
+/*-----------------------    hotbrands      ---------------------*/
+#hotbrands{height:664px; background:#f2f2f2; padding-top: 40px; padding-bottom: 30px;}
+#hotbrands .brandbt{margin-bottom: 10px; border-bottom: 4px solid #ec3e7d; padding-bottom: 25px;}
+#hotbrands .brandbt a{float: right; padding-top: 5px; font-size: 15px;}
+#hotbrands .brandbt a:hover{color:#ec3e7d;}
+#hotbrands .brandbt span{text-indent: -9999px; width: 345px; height: 31px; display: block; }
+#hotbrands .brandbt span.bticon{background: url(../img/title-bg.png) no-repeat; background-position: 0 -142px; overflow: hidden;}
+#hotbrands .brand-tab{line-height: 40px; height: 42px; font-size: 16px; border-bottom: 2px solid #d4d5d7; position: relative; margin-bottom: 25px;}
+#hotbrands .brand-tab .pingyi{border-bottom: 2px solid #c69a62; height: 2px; position: absolute; left: 0px; width: 112px; bottom: -2px;}
+#hotbrands .brand-tab li{float:left;}
+#hotbrands .brand-tab li a{padding: 0 24px; display: block;}
+#hotbrands .brand-tab li a:hover{color:#ec3e7d;}
+#hotbrands .brand-logo{margin-left: -26px; width: 1120px;}
+#hotbrands .brand-logo li{width: 253px; height: 150px; overflow: hidden; margin: 25px 0 0 26px; float: left; position: relative;}
+#hotbrands .brand-logo p{position: absolute; left: 0; top: 0; transition:all .2s linear;}
+#hotbrands .brand-logo p img{width: 253px; height: 150px; float: left;}
+#hotbrands .brand-logo li:hover p{top:-150px;}
+
+/*-----------------------    floor      ---------------------*/
+#floor{position: fixed; left: 0; top: 100px; width: 80px; text-align: center; z-index: 1000;}
+#floor li{padding: 10px 0px; background: #fff; border-bottom: 1px solid #eee; font-size: 13px;}
+#floor li .icon{font-size: 30px; line-height: 36px; color: #c69a62; display: block; margin: 0 auto;}
+#floor li.current{background:#2f2f2f; }
+#floor li.current a{color:#fff;}
+#floor li.current .icon{color:#fff;}
+
+/*-----------------------    float-search      ---------------------*/
+#float-search{height: 44px; padding: 8px 0; position: fixed; top: 0; left: 0; width: 100%; z-index: 505;}
+#float-search .fsearch-bg{position: absolute; top: 0; left: 0; background: #000; width: 100%; height: 44px; padding: 8px 0; opacity: 0.8; filter: alpha(opacity=80);}
+#float-search .page{position:relative;}
+#float-search .search-logo{width: auto; height: 40px; overflow: hidden; position: absolute;}
+#float-search .fsearch{position: absolute; left: 28%; top: 5px;}
+#float-search .fsearch #search-input{ background-color: #ec3e7d; width: 346px; height: 36px; float: left; position: relative;}
+#float-search .fsearch #search-input input{ border: none; font-size:14px; font-family: inherit; outline:none; width: 330px; height: 24px; line-height: 24px; padding: 3px 5px; font-size: 14px; position: absolute; left: 3px; top: 3px;}
+#float-search .fsearch .search-btn{border: none; outline:none; font-family: inherit; font-size:14px; color: white; text-align: center; background-color: #ec3e7d; width: 90px; height: 36px; line-height: 36px; float: left; cursor: pointer; text-shadow: none; padding: 0;}
+
+
+

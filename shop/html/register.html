@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+	<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+	<link rel="stylesheet" type="text/css" href="../css/loginregister.css">
+	<script type="text/javascript" src="../js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="../js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="../js/common.js"></script>
+	<script type="text/javascript" src="../js/register.js"></script>
+</head>
+<body>
+	<div id="topbar">
+		<div class="topbar page">
+			<div id="login-bar" class="l">欢迎光临莎莎官网！ <span><a href="login.html">登录</a><span class="center">或</span><a href="register.html">免费注册</a></span></div>
+			<div id="member-bar" class="r">
+				<ul>
+					<li><div><a href="#">
+						<i class="icon"></i>我的账戶<i class="icon arr"></i>
+					</a></div>
+						<dl id="count-dl" style="display: none;">
+							<dd><a href="#">我的订单</a></dd>
+							<dd><a href="#">我的积分</a></dd>
+							<dd><a href="#">我的优惠券</a></dd>
+							<dd><a href="#">我的收藏</a></dd>
+							<dd><a href="#">我的评价</a></dd>
+						</dl>
+					</li>
+					<li><div><a href="#"><i class="icon"></i>我的收藏</a></div></li>
+					<li><div><a href="#"><i class="icon"></i>我的站内信</a></div></li>
+					<li><div><a href="#">积分中心</a></div></li>
+					<li><div><a href="#">Global Site</a></div></li>
+					<li><div><a href="#">关注我们<i class="icon arr"></i></a></div>
+						<!-- width: 210px; -->
+						<dl id="focus" style="display: none; width: 86px;">
+							<dt style="width: 85px;">
+								<a href="#">
+									<img src="../img/jiarushoucang.png">加入收藏
+								</a>
+								<a href="#">
+									<img src="../img/xinlangweibo.png">新浪微博
+								</a>
+								<a href="#">
+									<img src="../img/shashaweixin.png">莎莎微信
+								</a>
+								<a href="#">
+									<img src="../img/youkuship.png">优酷视频
+								</a>
+							</dt>
+							<dd style="display: none;">
+								<img src="../img/weiboewm.jpg">
+							</dd>
+							<dd style="display: none;">
+								<img src="../img/weixinewm.jpg">
+							</dd>
+							<dd style="display: none;">
+								<img src="../img/youkuewm.jpg">
+							</dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="header-main">
+		<div class="header-main page">
+			<div id="logo">
+				<a href="../index.html">
+					<img src="../img/logo.gif">
+				</a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="page">
+		<div class="container register clb">
+			<div id="page_signin" class="r">
+				<div class="sign-title">
+					注册帐号
+					<span class="r">已有莎莎网账号？<a href="login.html">立即登录</a></span>
+				</div>
+				<div id="signupbox">
+					<form action="login.html" method="post">
+						<ul>
+							<li class="form-item">
+								<input class="ipt" type="text" name="username" id="username" placeholder="请输入邮箱/手机号，最少5个字符">
+								<span class="errormes"><i class="notice">!</i><span></span></span>
+							</li>
+							<li class="form-item">
+								<input class="ipt" type="password" name="password" id="password" placeholder="请输入密码6-16位字母和数字的组合">
+								<span class="errormes"><i class="notice">!</i><span></span></span>
+							</li>
+							<li class="form-item">
+								<input class="ipt" type="password" name="password" id="password2" placeholder="再次填写密码">
+								<span class="errormes"><i class="notice">!</i><span></span></span>
+							</li>
+							<li class="form-item">
+								<input class="ipt verify-ipt" type="password" name="password" id="code" placeholder="填写验证码">
+								<span class="errormes"><i class="notice">!</i><span></span></span>
+								<img class="verify-img" src="../img/verifycode.png">
+								<a class="verify-img" href="#">看不清？换一张</a>
+							</li>
+							<li class="form-item" style="display: none;">
+								<input class="ipt verify-ipt" type="password" name="password" id="phonecode" placeholder="填写短信验证码">
+								<a class="verify-phone" href="#">获取短信验证码</a>
+								<span class="errormes"><i class="notice">!</i><span></span></span>
+							</li>
+							<li class="form-item">
+								<input type="checkbox" name="is_remember" id="is_remember" checked>
+								<label for="is_remember">同意 <a href="#">莎莎网使用条款</a> 和 <a href="#">隐私保护政策</a></label>
+							</li>
+							<li class="form-item-normal">
+								<button type="submit" class="login-btn" id="register-btn">注册</button>
+							</li>
+						</ul>
+					</form>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<footer>
+		<div id="over">
+			<div class="page">
+				<span class="l">© Copyright 2000-2016 Sa Sa dot Com Limited 版权所有。</span>
+				<span class="r">莎莎国际控股有限公司成员</span>
+			</div>
+			</div>
+	</footer>
+</body>
+</html>
